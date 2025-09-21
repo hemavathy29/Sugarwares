@@ -1,0 +1,26 @@
+.elementor-502 .elementor-element.elementor-element-45c45bf:not(.elementor-motion-effects-element-type-background), .elementor-502 .elementor-element.elementor-element-45c45bf > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.ecolates.com/wp-content/uploads/2023/10/Inner-Pages-Slider-Products-Plates-scaled.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-502 .elementor-element.elementor-element-45c45bf {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-502 .elementor-element.elementor-element-45c45bf > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-502 .elementor-element.elementor-element-68259a0 .elementor-heading-title {
+    color: #0A1921;
+}
+
+.elementor-502 .elementor-element.elementor-element-323d6fe .elementor-heading-title {
+    color: #0A1921;
+}
+
+.elementor-502 .elementor-element.elementor-element-ae912b7 .elementor-heading-title {
+    color: #0A1921;
+}

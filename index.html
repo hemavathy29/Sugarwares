@@ -804,7 +804,12 @@
 	<meta name="msapplication-TileImage" content="uploads/Home-images/sugarwares-white-logo-icon-270x270-removebg-preview.png"/>
         <style id="wp-custom-css">
             /* Ensure logos remain circular */
-            .custom-logo,
+            .custom-logo {
+                width: 200px !important;
+                height: 200px !important;
+                object-fit: contain !important;
+                aspect-ratio: 1 / 1 !important;
+            }
             .ft_footer_left_img img {
                 width: 130px !important;
                 height: 130px !important;

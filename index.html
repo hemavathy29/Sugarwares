@@ -813,15 +813,16 @@
             }
             /* Align header logo and text side-by-side with minimal spacing */
             .header-titles {
-                display: flex;
+                display: flex !important;
                 align-items: center;
-                gap: 8px;
+                gap: 4px;
+                column-gap: 4px !important;
             }
             .header-titles .site-logo {
                 margin: 0 !important;
             }
             p.logo_text {
-                margin: 0 0 0 6px !important;
+                margin: 0 0 0 2px !important;
                 line-height: 1.2;
                 display: inline-block;
             }

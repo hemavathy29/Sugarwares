@@ -803,6 +803,14 @@
 	<link rel="apple-touch-icon" href="uploads/Home-images/sugarwares-white-logo-icon-180x180-removebg-preview.png"/>
 	<meta name="msapplication-TileImage" content="uploads/Home-images/sugarwares-white-logo-icon-270x270-removebg-preview.png"/>
         <style id="wp-custom-css">
+            /* Ensure logos remain circular */
+            .custom-logo,
+            .ft_footer_left_img img {
+                width: 80px !important;
+                height: 80px !important;
+                object-fit: contain !important;
+                aspect-ratio: 1 / 1 !important;
+            }
             .custom_ecolates_table .product_spec {
                 float: left;
                 width: 100%;
@@ -1380,7 +1388,7 @@
                     <div class="header-titles">
                         <div class="site-logo faux-heading">
                             <a href="index.html" class="custom-logo-link" rel="home" aria-current="page">
-                                <img width="70" height="70" style="width: 70px; height: 70px; border-radius: 50%; object-fit: cover;" src="uploads/Home-images/sugarwares-white-logo-icon-270x270-removebg-preview.png" class="custom-logo" alt="Sugarwares Logo (Sugarcane Bagasse Products Manufacturer)" decoding="async" srcset=" " sizes="70px"/>
+                                <img width="80" height="80" style="width: 80px; height: 80px; object-fit: contain;" src="uploads/Home-images/sugarwares-white-logo-icon-270x270-removebg-preview.png" class="custom-logo" alt="Sugarwares Logo (Sugarcane Bagasse Products Manufacturer)" decoding="async" srcset=" " sizes="(max-width: 80px) 100vw, 80px"/>
                             </a>
                             <span class="screen-reader-text">Sugarwares</span>
                         </div>
@@ -2500,7 +2508,7 @@ assist you.</p>
                         <div class="ft_footer">
                             <div class="ft_footer_left">
                                 <div class="ft_footer_left_img">
-                                    <img src="uploads/Home-images/sugarwares-white-logo-icon-270x270-removebg-preview.png" alt="Sugarwares">
+                                    <img src="uploads/Home-images/sugarwares-white-logo-icon-270x270-removebg-preview.png" alt="Sugarwares" width="80" height="80" style="width: 80px; height: 80px; object-fit: contain;">
                                     <p>Sugarwares is founded by a part of the service industry in Chennai.</p>
                                 </div>
                                 <div class="ft_footer_left_address">

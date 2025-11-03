@@ -811,6 +811,20 @@
                 object-fit: contain !important;
                 aspect-ratio: 1 / 1 !important;
             }
+            /* Align header logo and text side-by-side with minimal spacing */
+            .header-titles {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+            .header-titles .site-logo {
+                margin: 0 !important;
+            }
+            p.logo_text {
+                margin: 0 0 0 6px !important;
+                line-height: 1.2;
+                display: inline-block;
+            }
             .custom_ecolates_table .product_spec {
                 float: left;
                 width: 100%;
